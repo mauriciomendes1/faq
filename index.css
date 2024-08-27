@@ -11,8 +11,8 @@ h1 {
 }
 
 p {
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 300;
     padding: 5px;
 }
 
@@ -20,7 +20,6 @@ details {
     margin: 10px;
     cursor: pointer;
     overflow: hidden;
-    width: 100%;
 }
 
 details:hover {
@@ -48,7 +47,7 @@ details[open]>summary::after {
 .principal {
     display: flex;
     position: absolute;
-    width: 40%;
+    width: 30%;
     left: 50%;
     top: 30%;
     flex-direction: column;
@@ -62,6 +61,7 @@ details[open]>summary::after {
     background-color: white;
     border-radius: 7px;
     padding: 20px;
+    width: 100%;
 }
 
 
@@ -92,7 +92,7 @@ details[open]>summary::after {
 
 @font-face {
     font-family: Work Sans;
-    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf');
+    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf');
 }
 
 @media screen and (max-width:1100px) {
