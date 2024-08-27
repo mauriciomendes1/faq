@@ -35,13 +35,13 @@ summary {
 }
 
 summary::after {
-    content: url('/assets/images/icon-plus.svg');
+    content: url('./assets/images/icon-plus.svg');
     margin-left: 20px;
 
 }
 
 details[open]>summary::after {
-    content: url('/assets/images/icon-minus.svg');
+    content: url('./assets/images/icon-minus.svg');
 }
 
 .principal {
@@ -66,7 +66,7 @@ details[open]>summary::after {
 
 
 .back-image {
-    background-image: url('assets/images/background-pattern-desktop.svg');
+    background-image: url('./assets/images/background-pattern-desktop.svg');
     height: 40vh;
 }
 
@@ -92,7 +92,7 @@ details[open]>summary::after {
 
 @font-face {
     font-family: Work Sans;
-    src: url('/assets/fonts/WorkSans-VariableFont_wght.ttf');
+    src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
 }
 
 @media screen and (max-width:1100px) {
@@ -117,7 +117,7 @@ details[open]>summary::after {
 
 @media screen and (max-width:375px) {
     .back-image{
-        background-image: url('assets/images/background-pattern-mobile.svg');
+        background-image: url('./assets/images/background-pattern-mobile.svg');
     }
 
     .principal{
